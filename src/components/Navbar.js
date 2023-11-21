@@ -32,7 +32,7 @@ function Navbar() {
     <nav className='navbar'>
         <div className='navbar-container'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            GamingSpot <i class="fa-solid fa-gamepad"></i>
+            GamerSpot <i class="fa-solid fa-gamepad"></i>
             </Link>  
             <div className='menu-icon' onClick={handleClick}>
                 <i className={click ? 'fa-solid fa-times' : 'fa-solid fa-bars'} />

@@ -6,14 +6,14 @@ import './IntroSection.css';
 function IntroSection() {
   return (
     <div className='intro-container'>
-      <video src='/videos/video-2.mp4' autoPlay loop muted />
+      <video src='/videos/video-1.mp4' autoPlay loop muted />
       <h1>IMMERSE YOURSELF</h1>
-      <p>Into a whole new world!</p>
+      <p>In A Whole New World!</p>
       <div className='intro-btns'>
         <Button className='btns' 
         buttonStyle='btn--outline'
         buttonSize='btn--large'>
-            Get Started
+            GET STARTED
         </Button>
         <Button className='btns' 
         buttonStyle='btn--primary'
