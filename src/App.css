@@ -6,8 +6,8 @@
 }
 
 .home,
-.services,
-.products,
+.consoles,
+.games,
 .sign-up {
   display: flex;
   height: 90vh;
@@ -16,29 +16,29 @@
   font-size: 3rem;
 }
 
-.services {
-  background-image: url('../public/images/img-2.jpg');
+.consoles {
+  background-image: url('../public/images/consoles.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
+  font-size: 90px;
 }
 
-.products {
-  background-image: url('../public/images/img-1.jpg');
+.games {
+  background-image: url('../public/images/gaming.jpg');
   background-position: center;
-  background-size: fill;
+  background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
+  font-size: 90px;
 }
 
 .sign-up {
-  background-image: url('../public/images/img-8.jpg');
+  background-image: url('../public/images/signup.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
+  font-size: 90px;
 }
