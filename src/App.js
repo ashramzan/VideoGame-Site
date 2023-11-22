@@ -6,6 +6,7 @@ import Home from './components/pages/home';
 import SignUp from './components/pages/signup';
 import Consoles from './components/pages/consoles';
 import Games from './components/pages/games';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -18,8 +19,9 @@ function App() {
           <Route path='/consoles' Component={Consoles}/>
           <Route path='/games' Component={Games}/>
           <Route path='/sign-up' Component={SignUp}/>
-        </Routes>    
-        </Router>   
+        </Routes>
+        <Footer />     
+        </Router>  
     </>
   );
 }
