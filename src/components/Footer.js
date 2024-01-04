@@ -8,7 +8,7 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-            Subcribe to the GamerSpot for all the latest updates regarding everything gaming and tech.
+            Subcribe to the Gaming HQ for all the latest updates regarding everything gaming and tech.
         </p>
         <p className='footer-subscription-text'>
             You can unsubscribe at any time.
@@ -62,10 +62,10 @@ function Footer() {
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/'className='social-logo'>
-              GamerSpot <i class="fa-solid fa-gamepad"></i>
+              Gaming HQ <i class="fa-solid fa-gamepad"></i>
             </Link>
           </div>
-          <small class='website-rights'>GamerSpot &copy; </small>
+          <small class='website-rights'>Gaming HQ &copy; </small>
           <div className='social-icons'>
             <Link className='social-icon-link facebook' to='/' target='_blank' aria-label='Facebook'>
               <i className='fab fa-facebook-f' />
